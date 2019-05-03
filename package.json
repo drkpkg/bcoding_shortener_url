@@ -1,0 +1,10 @@
+{
+  "name": "bcoding_shortener_url",
+  "private": true,
+  "dependencies": {
+    "@rails/webpacker": "^4.0.2",
+    "jquery": "^3.4.1",
+    "bootstrap-4": "^4.0.0",
+    "popper.js": "1.15.0"
+  }
+}

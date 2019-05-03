@@ -1,0 +1,10 @@
+<%= form_with url: gen_url_path, html:{class:'form'}, method: :post, remote: true do |f| %>
+  <div class="input-group">
+    <%= f.text_field :web_url, placeholder: 'www.website.com', class:'form-control' %>
+    <div class="input-group-append">
+        <%= f.submit 'Generate', class:'btn btn-dark', id:'btn-'%>
+    </div>
+  </div>
+
+
+<% end %>
